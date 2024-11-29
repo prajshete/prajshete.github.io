@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Personal Blog</title>
+  <title>Host IDS</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -43,19 +43,24 @@
 
           <div class="col-lg-12 portfolio-info">
             <br>
-            <h2 style="color:#12d640">Tech Blog</h2>
+            <h2 style="color:#12d640">Host IDS</h2>
 
             <ul>
-              <li><strong>Tech Stack</strong>: Flask, SQLAlchemy, Python, Heroku, Postgres, Bootstrap, HTML, CSS</li>
-                <li><strong>Website URL</strong>: <a href="https://techingenious.herokuapp.com/" target="_blank">Link</a></li>
-              <li><strong>Github URL</strong>: <a href="https://github.com/rajaprerak/Blog_with_flask" target="_blank">Project Link</a></li>
+              <li><strong>Tech Stack</strong>: Python</li>
+              <li><strong>Github URL</strong>: <a href="https://github.com/prajshete/Python-for-security/blob/main/Host_IDS.py" target="_blank">Project Link</a></li>
             </ul>
 
             <p>
-               The blog is created using flask as backend. I have used bootstrap for the frontend part. For storing the data, I have made use of MySQL database. I have used the python SQL toolkit SQLAlchemy for performing database access.
+              Developed an automated file hash checker which will execute at regular intervals to check for modifications made in any directory.            
             </p>
-              <p>
-                The blog consist of features like viewing posts. Admin can add new post, edit posts and delete posts. User can contact admin via the contact page.
+            <p>
+              Created a json file with file hashes stored for each file in the directory which acts as a baseline.
+            </p>
+            <p>
+              Monitors the directory after every 60 seconds for modification (change in hash, hence change in baseline)
+            </p>
+            <p>
+              Provides an alert with file path if any modifications are found.
             </p>
           </div>
 
@@ -83,3 +88,4 @@
 
 </body>
 </html>
+
