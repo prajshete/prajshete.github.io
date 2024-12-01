@@ -51,17 +51,9 @@
             </ul>
 
             <p>
-              Developed an automated file hash checker which will execute at regular intervals to check for modifications made in any directory.            
+              The tool monitors the given Paths through yaml based file, captures the file hashes as initial baseline, checks for modifications and provides an alert if a change is detected. The changes will be written on a log file which can be sent to central log repository like SIEM for easy investigations and alert creations.            
             </p>
-            <p>
-              Created a json file with file hashes stored for each file in the directory which acts as a baseline.
-            </p>
-            <p>
-              Monitors the directory after every 60 seconds for modification (change in hash, hence change in baseline)
-            </p>
-            <p>
-              Provides an alert with file path if any modifications are found.
-            </p>
+
           </div>
 
         </div>
